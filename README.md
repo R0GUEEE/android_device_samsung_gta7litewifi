@@ -1,4 +1,5 @@
-# Android device tree for samsung SM-T220 (gta7litewifi)
+# TWRP device tree for Samsung SM-T220 (gta7litewifi)
+*Includes custom prebuilt kernel to enable touch*
 
 ```
 #
