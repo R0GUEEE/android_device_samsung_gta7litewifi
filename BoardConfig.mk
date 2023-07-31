@@ -1,5 +1,6 @@
 DEVICE_PATH := device/samsung/gta7litewifi
 ALLOW_MISSING_DEPENDENCIES := true
+TARGET_SUPPORTS_64_BIT_APPS := false
 
 # Architecture
 TARGET_ARCH := arm64
