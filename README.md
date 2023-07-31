@@ -6,7 +6,7 @@
 Get the TWRP manifest :
 
     repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-    repo sync
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
     
 Clone the device tree to the "/device/samsung/gta7litewifi" directory :
