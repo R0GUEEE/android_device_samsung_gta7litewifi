@@ -26,3 +26,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="gta7litewifixx-user 12 SP1A.210812.016 T220XXU2CWB3 release-keys"
 
 BUILD_FINGERPRINT := samsung/gta7litewifixx/gta7litewifi:12/SP1A.210812.016/T220XXU2CWB3:user/release-keys
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/gta7litewifi/recovery/root,recovery/root)
