@@ -11,7 +11,7 @@ Get the TWRP manifest :
     
 Clone the device tree to the "/device/samsung/gta7litewifi" directory :
 
-    git clone https://github.com/R0GUEEE/android_device_samsung_gta7litewifi.git 
+    git clone https://github.com/R0GUEEE/android_device_samsung_gta7litewifi.git device/samsung/gta7litewifi
 
 
 Build the image :
