@@ -8,7 +8,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_gta7litewifi.mk
 
-COMMON_LUNCH_CHOICES := \
-    twrp_gta7litewifi-user \
-    twrp_gta7litewifi-userdebug \
-    twrp_gta7litewifi-eng
+COMMON_LUNCH_CHOICES := twrp_gta7litewifi-eng
