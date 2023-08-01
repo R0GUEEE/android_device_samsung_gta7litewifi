@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Release name
-PRODUCT_RELEASE_NAME := gta7litewifi
-
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -27,16 +24,16 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/gta7litewifi/device.mk)
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/gta7litewifi/recovery/root,recovery/root)
-
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_gta7litewifi
 PRODUCT_DEVICE := gta7litewifi
-PRODUCT_MODEL := SM-T220
+PRODUCT_NAME := twrp_gta7litewifi
 PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-T220
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="gta7litewifixx-user 12 SP1A.210812.016 T220XXU1CVL7 release-keys"
+
+BUILD_FINGERPRINT := samsung/gta7litewifixx/gta7litewifi:12/SP1A.210812.016/T220XXU1CVL7:user/release-keys
