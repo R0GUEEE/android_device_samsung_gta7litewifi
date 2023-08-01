@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+
+LOCAL_PATH := device/samsung/gta7litewifi
+
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
