@@ -16,7 +16,7 @@ TW_INCLUDE_FASTBOOTD := true
 
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
-    android.hardware.fastboot@1.0-impl-mock.recovery
+    android.hardware.fastboot@1.0-impl-mock.recovery \
     fastbootd
 
 PRODUCT_PRODUCT_PROPERTIES += \
